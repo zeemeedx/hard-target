@@ -1,0 +1,87 @@
+body {
+	background-image: url(../imagens/back.png);
+}
+
+@font-face {
+	font-family: Padrao;
+	src: url(../fontes/gotham.otf);
+}
+
+@font-face {
+	font-family: HUD;
+	src: url(../fontes/cocogoose.ttf);
+}
+
+h1 {
+	font-family: Padrao;
+	font-size: 50px;
+	color: #B279FF;
+	text-align: center;
+}
+
+h2 {
+	font-family: HUD;
+	font-size: 20px;
+	color: #000000;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+h3{
+	font-family: Padrao;
+	font-size: 40px;
+ 	color: #B279FF;
+	text-align: center;
+}
+
+h4 {
+	font-family: HUD;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+h5{
+	font-family: Padrao;
+	font-size: 40px;
+ 	color: #0056B3;
+	text-align: center;
+}
+	
+#objetos {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#fundo {
+	width: 600px;
+	height: 400px;
+	background-image: url(../imagens/fundo.jpg);
+	margin: auto;
+	position: relative;
+	pointer-events: auto;
+}
+
+#flecha {
+	width: 157px;
+	height: 15px;
+	background-image: url(../imagens/flecha.png);
+	position: absolute;
+	left: -40px;
+	top: 200px;
+	transform: scale(0.5);
+}
+
+#alvo {
+	width: 60px;
+	height: 106px;
+	background-image: url(../imagens/alvo2.png);
+	position: absolute;
+	left: 545px;
+	top: 150px;
+	transform: scale(0.8);
+}
